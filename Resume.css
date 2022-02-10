@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background: #eee;
+    font-family:'Lato', sans-serif;
+    font-weight: 400;
+    color: #222;
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(209, 203, 203);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 700px;
+    background: #fff;
+    margin: 0px auto 0px;
+    box-shadow: 1px 1px 2px #DAD7D7;
+    border-radius: 5px;
+    padding: 45px;
+    margin-top: 50px;
+}
+
+.header {
+    margin-bottom: 10px;
+
+}
+
+.full-name {
+    font-size: 40px;
+    text-transform: uppercase;
+    background-color: rgb(209, 203, 203);
+    margin-bottom: 5px;
+    margin-right: 150px;
+}
+
+.first-name {
+    font-weight: 600;
+}
+
+.last-name {
+    font-weight: 300;
+}
+
+.profile-pic {
+    margin-left: 500px;
+    border-radius: 100%;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.email, .phone, .linked-in, .twitter {
+    color: rgba(27, 27, 26, 0.486);
+    font-weight: 500;
+}
+
+.linked-in-val, .twitter-val {
+    text-decoration: none;
+}
+
+.separator {
+    height: 14px;
+    display: inline-block;
+    border-left: 2px solid #999;
+    margin: 0px 10px;
+}
+
+.about {
+    text-align: justify;
+}
+.separator2 {
+    height: 14px;
+    margin: 0px 30px;
+}
+
+.details {
+    line-height: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section:last-of-type{
+    margin-bottom: 0px;
+}
+
+.section-title {
+    letter-spacing: 2px;
+    color: rgb(121, 118, 118);
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.section-list-item {
+    margin-bottom: 20px;
+}
+
+.section-list-item:last-of-type {
+    margin-bottom: 0;
+}
+
+.left,
+.right {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 39%;
+    text-align: justify;
+}
+
+.name {
+    font-weight: bold;
+}
+
