@@ -30,9 +30,9 @@ a:hover {
 
 .container {
     max-width: 700px;
-    background: #fff;
+    background: #f9f6f6cf;
     margin: 0px auto 0px;
-    box-shadow: 1px 1px 2px #DAD7D7;
+    box-shadow: 7px -8px 2px #dad7d7;
     border-radius: 5px;
     padding: 45px;
     margin-top: 50px;
@@ -40,7 +40,7 @@ a:hover {
 
 .header {
     margin-bottom: 10px;
-
+    background-color: aliceblue;
 }
 
 .full-name {
